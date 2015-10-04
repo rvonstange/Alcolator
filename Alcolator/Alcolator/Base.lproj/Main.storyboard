@@ -43,6 +43,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="DcW-zi-cv3" firstAttribute="width" secondItem="YiK-f2-Wse" secondAttribute="width" id="1Bx-Mr-6H6"/>
                             <constraint firstItem="YiK-f2-Wse" firstAttribute="top" secondItem="c2U-P1-xMX" secondAttribute="bottom" constant="8" id="INd-s6-iRj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="DcW-zi-cv3" secondAttribute="trailing" constant="15" id="MsV-fx-Bz8"/>
                             <constraint firstItem="QGh-vs-WQs" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Php-Zx-pva"/>
