@@ -48,10 +48,6 @@
     self.resultLabel.text = resultText;
 }
 
-- (IBAction)sliderValueDidChange:(UISlider *)sender {
-    int x = sender.value;
-    self.navigationItem.title = [NSString stringWithFormat:@"Whiskey %d", x];
-    [self.beerPercentTextField resignFirstResponder];
-}
+
 
 @end
