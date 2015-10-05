@@ -5,7 +5,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Wine-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -69,6 +69,7 @@
                             <outletCollection property="gestureRecognizers" destination="frt-jq-Ca5" appends="YES" id="e60-4b-WvI"/>
                         </connections>
                     </view>
+                    <navigationItem key="navigationItem" title="Wine" id="WUe-4C-Bw0"/>
                     <connections>
                         <outlet property="beerCountSlider" destination="c2U-P1-xMX" id="cXW-re-sWk"/>
                         <outlet property="beerPercentTextField" destination="QGh-vs-WQs" id="ENz-WG-VJm"/>
@@ -133,7 +134,7 @@
             </objects>
             <point key="canvasLocation" x="761" y="-299"/>
         </scene>
-        <!--Whiskey View Controller-->
+        <!--Whiskey-->
         <scene sceneID="l64-tf-xZ7">
             <objects>
                 <viewController id="LXe-bq-Vud" customClass="WhiskeyViewController" sceneMemberID="viewController">
@@ -194,6 +195,7 @@
                             <constraint firstItem="itX-H0-P3x" firstAttribute="centerX" secondItem="ZiG-9i-ujH" secondAttribute="centerX" constant="-0.5" id="uI8-Hc-jz6"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Whiskey" id="eIt-aQ-NJu"/>
                     <connections>
                         <outlet property="beerCountSlider" destination="itX-H0-P3x" id="96F-oE-tg0"/>
                         <outlet property="beerPercentTextField" destination="YUO-hS-erZ" id="bEY-do-49p"/>
